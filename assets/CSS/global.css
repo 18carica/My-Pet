@@ -19,7 +19,6 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 html, body {
-  
   overflow-x: hidden;
 }
 /* HTML5 display-role reset for older browsers */
@@ -46,28 +45,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* START HEADER */
 .container {
   max-width: 1280px;
   margin: auto;
 }
-
 header {
   background-color: salmon;
   padding: 20px 0;
 }
-
 header section {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 header section nav ul{
   display: flex;
 }
-
 header section nav ul li a{
   padding-left: 40px;
   color: #FDFDFD;
@@ -76,31 +70,24 @@ header section nav ul li a{
   text-decoration: none;
   transition: all .5s;
 }
-
 header section nav ul li a:hover {
   color: #EEE4E4;
   text-decoration: underline;
   transition: all .5s;
 }
-
-
 /* START FOOTER */
-
 footer {
   background-color: salmon;
   padding: 50px 0;
 }
-
 footer section{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 footer section nav ul li {
   padding: 5px 0;
 }
-
 footer section nav ul li a{
   padding-left: 40px;
   color: #FDFDFD;
@@ -109,13 +96,11 @@ footer section nav ul li a{
   text-decoration: none;
   transition: all .5s;
 }
-
 footer section nav ul li a:hover {
   color: #EEE4E4;
   text-decoration: underline;
   transition: all .5s;
 }
-
 footer section div a{
   color: #FDFDFD;
   font-size: 20px;
@@ -128,19 +113,15 @@ footer section div a{
   display: flex;
   justify-content: center;
 }
-
 footer section div a:hover{
   background-color: #fdfdfd;
   color: #000;
 }
-
 footer section div div:nth-child(1){
   
   margin-bottom: 15px;
 }
-
 /* RESPONSIVE DISPLAYS */
-
 /* MOBILE */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   /* HEADER */
@@ -154,7 +135,6 @@ footer section div div:nth-child(1){
     font-size: 12px;
     padding:0 5px;;
   }
-
   /* FOOTER */
   footer {
     padding: 20px;
@@ -179,13 +159,11 @@ footer section div div:nth-child(1){
     display: flex;
     justify-content: space-between;
     padding-bottom: 5px;
-    
   }
   footer section div div:nth-child(1) {
     margin-bottom: 5px;
   }
 }
-
 /* TABLET */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   /* HEADER */
@@ -199,7 +177,6 @@ footer section div div:nth-child(1){
     font-size: 16px;
     padding-left: 20px;
   }
-
   /* FOOTER */
   footer {
     padding: 20px;
@@ -224,7 +201,6 @@ footer section div div:nth-child(1){
     padding-bottom: 5px;
   }
 }
-
 /* LAPTOP */
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
   /* HEADER */
@@ -234,7 +210,6 @@ footer section div div:nth-child(1){
   header img{
     width: 20%;
   }
-
   /* FOOTER */ 
   footer {
     padding: 20px;

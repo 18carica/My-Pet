@@ -3,7 +3,6 @@ main section {
   justify-content: space-between;
   padding: 100px 0;
 }
-
 main section h1{
   color: saddlebrown;
   font-size: 40px;
@@ -17,13 +16,10 @@ main section h1{
   flex-grow: 1;
   text-align: end;
 }
-
-
 form {
   display:flex;
   flex-direction: column;
 }
-
 form input{
   color: #58555D;
   font-size: 16px;
@@ -33,7 +29,6 @@ form input{
   border-radius: 7px;
   border: 1px solid #686868;
 }
-
 button{
   background-color: sandybrown;
   color: #FFF;
@@ -45,35 +40,26 @@ button{
   width: 130px;
   cursor: pointer;
 }
-
 button:hover {
   background-color: sandybrown;
-  
   transition: all .5s;
 }
-
 form input::placeholder{
   color: #58555D;
   font-size: 16px;
 }
-
 form textarea {
   resize: none;
   border-radius: 7px;
   margin-bottom: 15px;
   height: 193px;
 }
-
 form textarea::placeholder {
   color: #58555D;
   font-size: 17px;
   padding: 10px 15px;
 }
-
-
-
 /* RESPONSIVE DISPLAYS */
-
 /* MOBILE */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
   main section {
@@ -96,7 +82,6 @@ form textarea::placeholder {
     width: 100%;
   }
 }
-
 /* TABLET */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   main section {
@@ -113,7 +98,6 @@ form textarea::placeholder {
     align-items: center;
   }
 }
-
 /* LAPTOP */
 @media only screen and (min-width: 769px) and (max-width: 1279px) {
   main section {

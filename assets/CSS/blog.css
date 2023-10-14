@@ -19,6 +19,7 @@ main hr {
   height: 5px;
   list-style: none;
   border: none;
+  padding-left: 08%;
 }
 
 .artigo {
@@ -30,7 +31,7 @@ main hr {
 }
 
 .artigo article {
-  text-align: justify;
+  text-align: left;
   margin-left: 53px;
 }
 
@@ -49,6 +50,7 @@ main hr {
   font-size: 18px;
   width: 724px;
   height: 105px;
+  text-align: justify;
 }
 
 #primeiro button {
