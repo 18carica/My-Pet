@@ -50,6 +50,7 @@ table {
   max-width: 1280px;
   margin: auto;
 }
+
 header {
   background-color: salmon;
   padding: 20px 0;
@@ -118,7 +119,6 @@ footer section div a:hover{
   color: #000;
 }
 footer section div div:nth-child(1){
-  
   margin-bottom: 15px;
 }
 /* RESPONSIVE DISPLAYS */
