@@ -3,7 +3,7 @@ main section.banner-one-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-item: 1;
+  flex: 1;
   padding: 125px 0 ;
 }
 main section article.banner-one {
@@ -184,6 +184,7 @@ div.footer-btn a:hover{
 
 .card__content {
   position: absolute;
+  text-align: center;
   top: 0;
   left: 0;
   width: 100%;
@@ -449,7 +450,7 @@ div.footer-btn a:hover{
   }
   main section.light-gray h3 {
     font-size: 22px;
-    paddint-top: 20px;
+    padding-top: 20px;
   }
   main section.light-gray p.space {
     font-size: 14px;

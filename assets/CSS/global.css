@@ -4,7 +4,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -21,6 +21,9 @@ time, mark, audio, video {
 html, body {
   overflow-x: hidden;
 }
+strong {
+  font-weight: 900;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -28,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Robato', sans-serif;
 }
-ol, ul {
+nav ul li{
 	list-style: none;
 }
 blockquote, q {
@@ -50,7 +53,6 @@ table {
   max-width: 1280px;
   margin: auto;
 }
-
 header {
   background-color: salmon;
   padding: 20px 0;
@@ -76,10 +78,17 @@ header section nav ul li a:hover {
   text-decoration: underline;
   transition: all .5s;
 }
+.logo {
+  width: 150px;
+  height: 150px;
+}
 /* START FOOTER */
 footer {
   background-color: salmon;
   padding: 50px 0;
+}
+footer div{
+  padding-right: 10px;
 }
 footer section{
   display: flex;
@@ -121,6 +130,11 @@ footer section div a:hover{
 footer section div div:nth-child(1){
   margin-bottom: 15px;
 }
+.logo-footer {
+  width: 200px;
+  height: 200px; 
+}
+
 /* RESPONSIVE DISPLAYS */
 /* MOBILE */
 @media only screen and (min-width: 320px) and (max-width: 480px) {

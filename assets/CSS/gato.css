@@ -27,6 +27,7 @@ main section article {
     font-size: 18px;
     font-weight: 300;
     padding-top: 20px;
+    text-align: justify;
   }
   article .two-content h3{
     color: salmon;
@@ -78,4 +79,18 @@ main section article {
     color: sandybrown;
     font-weight: 400;
     text-align: center;
+  }
+  article .two-content h4{
+    color: salmon;
+    font-size: 26px;
+    font-weight: 400;
+    padding-top: 60px;
+    text-align: justify;
+  }
+  article .two-content ul{
+    color: #000;
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 20px;
+    text-align: justify;
   }
