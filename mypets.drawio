@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 OPR/112.0.0.0" version="24.7.10">
   <diagram name="Página-1" id="SuCYYnUPxGJdnPJ4EsLQ">
-    <mxGraphModel dx="1009" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1441" dy="770" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,10 +14,10 @@
           <mxGeometry x="40" y="320" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Clqos_Tl6hFGt3WGWj2Z-4" value="ADMIN" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="200" width="30" height="60" as="geometry" />
+          <mxGeometry x="950" y="440" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Clqos_Tl6hFGt3WGWj2Z-15" value="My Pets - Sistema" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="120" y="40" width="920" height="720" as="geometry" />
+          <mxGeometry x="120" y="40" width="760" height="720" as="geometry" />
         </mxCell>
         <mxCell id="Clqos_Tl6hFGt3WGWj2Z-16" value="&lt;h3 class=&quot;western&quot;&gt;&lt;strong&gt;Cadastro de Proprietário&lt;/strong&gt;&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="Clqos_Tl6hFGt3WGWj2Z-15" vertex="1">
           <mxGeometry x="160" y="90" width="120" height="80" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry x="390" y="30" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Clqos_Tl6hFGt3WGWj2Z-18" value="&lt;h3 class=&quot;western&quot;&gt;&amp;nbsp;Cadastro de Veterinário&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="Clqos_Tl6hFGt3WGWj2Z-15" vertex="1">
-          <mxGeometry x="220" y="370" width="120" height="80" as="geometry" />
+          <mxGeometry x="240" y="350" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Clqos_Tl6hFGt3WGWj2Z-20" value="&lt;h3 class=&quot;western&quot;&gt;&amp;nbsp;Cadastro de Petshop&lt;/h3&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="Clqos_Tl6hFGt3WGWj2Z-15" vertex="1">
           <mxGeometry x="40" y="400" width="120" height="80" as="geometry" />
@@ -70,7 +70,7 @@
             <mxPoint x="430" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="HcaiznJlGV5WDNEf7o0Q-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Consulta&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Clqos_Tl6hFGt3WGWj2Z-15">
+        <mxCell id="HcaiznJlGV5WDNEf7o0Q-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Consulta Veterinária&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="Clqos_Tl6hFGt3WGWj2Z-15">
           <mxGeometry x="560" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="HcaiznJlGV5WDNEf7o0Q-2" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Clqos_Tl6hFGt3WGWj2Z-15" source="Clqos_Tl6hFGt3WGWj2Z-22" target="HcaiznJlGV5WDNEf7o0Q-1">
